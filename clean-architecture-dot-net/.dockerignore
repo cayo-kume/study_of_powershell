@@ -1,0 +1,28 @@
+# Build results
+**/bin/
+**/obj/
+
+# IDE/Editor settings
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Version control
+.git/
+.gitignore
+
+# Docker specific
+Dockerfile
+.dockerignore
+docker-compose*
+
+# Packages and logs
+**/packages/
+*.log
+
+# Sensitive info
+secrets.json
+*.pfx
